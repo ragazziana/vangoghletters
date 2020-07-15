@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Website Header*/
+
+.navbar{
+    display: flex;
+    background-color: #ff8333;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.2em;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.menu{
+    list-style: none;
+    margin-right: 30px;
+    color: white;
+}
+
+li{
+    display: inline;
+    text-transform: uppercase;    
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: normal;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Header*/
+
+.imagemvg{
+    display: flex;
+    background-color: #9ccde3;
+    justify-content: space-between;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vangogh{
+    width: 200px;
+    height: 200px;
+}
+
+p.welcome{
+    font-size: 2em;
+    margin-top: 20px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/*Main*/
+
+.apresentacao{
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+p.text1{
+    font-size: 0.5em;
+    text-align: justify;
+    line-height: 30px;
+}
+p.text2{
+    font-size: 0.5em;
+    text-align: justify;
+    line-height: 30px;
+}
+p.text3{
+    font-size: 0.5em;
+    text-align: justify;
+    line-height: 30px
+}
+
+.main1{
+  flex-basis: 300px;
+  background-color: #efedee;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.main2{
+    flex-basis: 300px; 
+    background-color: #efedee;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+.main3{
+    flex-basis: 300px;
+    background-color: #efedee;    
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.hello1{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.hello2{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.hello3{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.readmore1{
+    padding: 10px;
+    background-color: #ff8333;
+    border: 0;
+}
+
+.top1{
+    padding-right: 20px;
+}
+.top2{
+    padding-right: 20px;
+}
+.top3{
+    padding-right: 20px;
+}
+
+.imagevan{
+    display: flex;
+    justify-content: center;
+}
+
+/*Footer*/
+
+.footercontainer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footertext{
+    color: white;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
